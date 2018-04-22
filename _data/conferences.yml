@@ -31,123 +31,143 @@
   place: Perth, Western Australia
   sub: CV
 
-- name: ICLR
-  year: 2018
-  id: iclr18
-  link: http://iclr.cc/
-  deadline: "2017-10-27 17:00:00"
-  timezone: America/Los_Angeles
-  date: April 30-May 3, 2018
-  place: Vancouver Convention Center, Vancouver, Canada
-  sub: ML
+# - name: ICCV
+#   year: 2017
+#   id: iccv17
+#   link: hhttp://iccv2017.thecvf.com/
+#   deadline: "2017-03-17 23:59:59"
+#   timezone: Etc/GMT+7
+#   date: October 22-29, 2017
+#   place: Venice, Italy
+#   sub: CV
 
-- name: ICASSP
-  year: 2018
-  id: icassp18
-  link: https://2018.ieeeicassp.org/
-  deadline: "2017-10-27 23:59:59"
-  timezone: America/Los_Angeles
-  date: April 15-20, 2018
-  place: Calgary, Alberta, Canada
-  sub: MM
+# - name: ACM MM
+#   year: 2017
+#   id: acmmm17
+#   link: acmmm.org/2017/
+#   deadline: "2017-04-20 23:59:59"
+#   timezone: Etc/GMT-12
+#   date: October 22-26, 2018
+#   place: Seoul, Korea
+#   sub: MM
 
-- name: CVPR
-  year: 2018
-  id: cvpr18
-  link: http://cvpr2018.thecvf.com/
-  deadline: "2017-11-15 23:59:59"
-  timezone: America/Los_Angeles
-  date: June 18-23, 2018
-  place: Salt Lake City, Utah
-  sub: CV
+# - name: ICLR
+#   year: 2018
+#   id: iclr18
+#   link: http://iclr.cc/
+#   deadline: "2017-10-27 17:00:00"
+#   timezone: America/Los_Angeles
+#   date: April 30-May 3, 2018
+#   place: Vancouver Convention Center, Vancouver, Canada
+#   sub: ML
 
-- name: ICME
-  year: 2018
-  id: icme18
-  link: www.acmmm.org/2018/
-  deadline: "2017-12-15 23:59:59"
-  timezone: Etc/GMT+7
-  date: July 23-27, 2018
-  place: San Diego, USA
-  sub: MM
+# - name: ICASSP
+#   year: 2018
+#   id: icassp18
+#   link: https://2018.ieeeicassp.org/
+#   deadline: "2017-10-27 23:59:59"
+#   timezone: America/Los_Angeles
+#   date: April 15-20, 2018
+#   place: Calgary, Alberta, Canada
+#   sub: MM
 
-- name: SIGGRAPH
-  year: 2018
-  id: siggraph18
-  link: http://s2018.siggraph.org/
-  deadline: "2018-01-23 21:59:59"
-  timezone: GMT
-  date: August 12-16, 2018
-  place: Vancouver, Canada
-  sub: CG
+# - name: CVPR
+#   year: 2018
+#   id: cvpr18
+#   link: http://cvpr2018.thecvf.com/
+#   deadline: "2017-11-15 23:59:59"
+#   timezone: America/Los_Angeles
+#   date: June 18-23, 2018
+#   place: Salt Lake City, Utah
+#   sub: CV
 
-- name: IJCAI
-  year: 2018
-  id: ijcai18
-  link: https://www.ijcai-18.org/
-  deadline: "2018-01-31 23:59:59"
-  timezone: Etc/GMT+12
-  date: July 13-19, 2018
-  place: Stockholm, Sweden
-  sub: ML
+# - name: ICME
+#   year: 2018
+#   id: icme18
+#   link: www.acmmm.org/2018/
+#   deadline: "2017-12-15 23:59:59"
+#   timezone: Etc/GMT+7
+#   date: July 23-27, 2018
+#   place: San Diego, USA
+#   sub: MM
 
-- name: ICML
-  year: 2018
-  id: icml18
-  link: https://icml.cc/Conferences/2018
-  deadline: "2018-02-09 18:59:59"
-  timezone: EST
-  date: July 10-15, 2018
-  place: Stockholm, Sweden
-  sub: ML
+# - name: SIGGRAPH
+#   year: 2018
+#   id: siggraph18
+#   link: http://s2018.siggraph.org/
+#   deadline: "2018-01-23 21:59:59"
+#   timezone: GMT
+#   date: August 12-16, 2018
+#   place: Vancouver, Canada
+#   sub: CG
 
-- name: KDD
-  year: 2018
-  id: kdd18
-  link: http://www.kdd.org/kdd2018/
-  deadline: "2018-02-11 23:59:59"
-  timezone: America/Los_Angeles
-  date: August 19-23, 2018
-  place: London, United Kingdom
-  sub: ML
+# - name: IJCAI
+#   year: 2018
+#   id: ijcai18
+#   link: https://www.ijcai-18.org/
+#   deadline: "2018-01-31 23:59:59"
+#   timezone: Etc/GMT+12
+#   date: July 13-19, 2018
+#   place: Stockholm, Sweden
+#   sub: ML
 
-- name: UAI
-  year: 2018
-  id: uai18
-  link: http://auai.org/uai2018/index.php
-  deadline: "2018-03-09 23:59:59"
-  timezone: Etc/GMT+11
-  date: August 06-10, 2018
-  place: Monterey, California, USA
-  sub: ML
+# - name: ICML
+#   year: 2018
+#   id: icml18
+#   link: https://icml.cc/Conferences/2018
+#   deadline: "2018-02-09 18:59:59"
+#   timezone: EST
+#   date: July 10-15, 2018
+#   place: Stockholm, Sweden
+#   sub: ML
 
-- name: MICCAI
-  year: 2018
-  id: miccai18
-  link: www.miccai2018.org
-  deadline: "2018-03-02 23:59:59"
-  timezone: Etc/GMT+7
-  date: September 16-20, 2018
-  place: Granada, Spain
-  sub: MM
+# - name: KDD
+#   year: 2018
+#   id: kdd18
+#   link: http://www.kdd.org/kdd2018/
+#   deadline: "2018-02-11 23:59:59"
+#   timezone: America/Los_Angeles
+#   date: August 19-23, 2018
+#   place: London, United Kingdom
+#   sub: ML
 
-- name: ECCV
-  year: 2018
-  id: eccv18
-  link: https://eccv2018.org/
-  deadline: "2018-03-14 15:59:00"
-  timezone: America/Los_Angeles
-  date: September 8-14, 2018
-  place: Munich, Germany
-  sub: CV
+# - name: UAI
+#   year: 2018
+#   id: uai18
+#   link: http://auai.org/uai2018/index.php
+#   deadline: "2018-03-09 23:59:59"
+#   timezone: Etc/GMT+11
+#   date: August 06-10, 2018
+#   place: Monterey, California, USA
+#   sub: ML
 
-- name: ACM MM
-  year: 2018
-  id: acmmm18
-  link: www.acmmm.org/2018/
-  deadline: "2018-04-08 23:59:00"
-  timezone: Etc/GMT+7
-  date: October 22-26, 2018
-  place: Seoul, Korea
-  sub: MM
+# - name: MICCAI
+#   year: 2018
+#   id: miccai18
+#   link: www.miccai2018.org
+#   deadline: "2018-03-02 23:59:59"
+#   timezone: Etc/GMT+7
+#   date: September 16-20, 2018
+#   place: Granada, Spain
+#   sub: MM
+
+# - name: ECCV
+#   year: 2018
+#   id: eccv18
+#   link: https://eccv2018.org/
+#   deadline: "2018-03-14 15:59:00"
+#   timezone: America/Los_Angeles
+#   date: September 8-14, 2018
+#   place: Munich, Germany
+#   sub: CV
+
+# - name: ACM MM
+#   year: 2018
+#   id: acmmm18
+#   link: acmmm.org/2018/
+#   deadline: "2018-04-08 23:59:59"
+#   timezone: Etc/GMT+7
+#   date: October 22-26, 2018
+#   place: Seoul, Korea
+#   sub: MM
 
