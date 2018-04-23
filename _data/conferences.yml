@@ -9,6 +9,7 @@
   timezone: America/Los_Angeles
   date: September 03-06, 2018
   place: Newcastle upon Tyne
+  hindex: 43
   sub: CV
 
 - name: NIPS
@@ -19,6 +20,7 @@
   timezone: America/Los_Angeles
   date: December 3-8, 2018
   place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
+  hindex: 101
   sub: ML
 
 - name: SPIC-SI on Advances in statistical methods-based visual quality assessment
@@ -29,6 +31,7 @@
   timezone: Etc/GMT+7 # ...
   date: November 30, 2018 (Final decision)
   place: None
+  hindex: 31
   sub: MM
 
 - name: ACCV
@@ -39,6 +42,29 @@
   timezone: America/Los_Angeles
   date: December 2-6, 2018
   place: Perth, Western Australia
+  hindex: 35
+  sub: CV
+
+- name: CVPR
+  year: 2019
+  id: cvpr2019
+  link: http://cvpr2019.thecvf.com
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: June 15-21, 2019
+  place: Long Beach, CA
+  hindex: 158
+  sub: CV
+
+- name: ICCV
+  year: 2019
+  id: iccv2019
+  link: http://iccv2019.thecvf.com
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: October 20-26, 2019
+  place: Seoul, Korea
+  hindex: 89
   sub: CV
 
 # - name: ICCV
@@ -171,13 +197,14 @@
 #   place: Munich, Germany
 #   sub: CV
 
-# - name: ACM MM
-#   year: 2018
-#   id: acmmm18
-#   link: acmmm.org/2018/
-#   deadline: "2018-04-08 23:59:59"
-#   timezone: Etc/GMT+7
-#   date: October 22-26, 2018
-#   place: Seoul, Korea
-#   sub: MM
+- name: ACM MM
+  year: 2018
+  id: acmmm18
+  link: acmmm.org/2018/
+  deadline: "2018-04-08 23:59:59"
+  timezone: Etc/GMT+7
+  date: October 22-26, 2018
+  place: Seoul, Korea
+  hindex: 44
+  sub: MM
 
