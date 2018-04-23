@@ -21,6 +21,16 @@
   place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
   sub: ML
 
+- name: SPIC-SI on Advances in statistical methods-based visual quality assessment
+  year: 2018
+  id: spic-si18
+  link: https://www.journals.elsevier.com/signal-processing-image-communication/call-for-papers/special-issue-on-advances-in-statistical-methods-based-visua
+  deadline: "2018-05-31 23:59:59"
+  timezone: Etc/GMT+7 # ...
+  date: February, 2019
+  place: None
+  sub: ML
+
 - name: ACCV
   year: 2018
   id: accv18

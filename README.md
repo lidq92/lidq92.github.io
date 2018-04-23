@@ -9,6 +9,9 @@ Countdown timers to keep track of conference deadlines that are related to multi
 - Make sure it has the `name`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place` attributes
 - Send a pull request
 
+## TODO
+- Add `H-index`
+
 ## License
 
 [MIT](./License)
