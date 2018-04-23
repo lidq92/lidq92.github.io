@@ -1,6 +1,6 @@
 ## Multimedia Deadlines
 
-Countdown timers to keep track of conference deadlines that are related to multimedia (MM), as well as CV/ML/PR/AI/GR/SIViP/MIP, etc.
+Countdown timers to keep track of conference deadlines that are related to multimedia (MM), as well as CV/ML/CG/PR/AI/SIViP/MIP, etc.
 
 ## Adding/updating a conference
 
@@ -13,4 +13,4 @@ Countdown timers to keep track of conference deadlines that are related to multi
 
 [MIT](./License)
 
-Thanks to Abhishek Das for building the original site, ai-deadlin.es!
+Thanks to Abhishek Das for building the original site, [ai-deadlin.es](ai-deadlin.es)!
