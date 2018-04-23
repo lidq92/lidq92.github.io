@@ -16,4 +16,4 @@ Countdown timers to keep track of conference deadlines that are related to multi
 
 [MIT](./License)
 
-Thanks to Abhishek Das ([@abhshkdz](https://github.com/abhshkdz)) for building the original site, [http://aideadlin.es/](ai-deadlin.es)!
+Thanks to Abhishek Das ([@abhshkdz](http://github.com/abhshkdz)) for building the original site, [aideadlin.es](https://aideadlin.es/?sub=ML,CV,SP)!
