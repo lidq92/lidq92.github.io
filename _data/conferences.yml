@@ -67,6 +67,61 @@
   hindex: 89
   sub: CV
 
+- name: TIP
+  year: 
+  id: tip
+  link: mc.manuscriptcentral.com/tip-ieee
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: Whenever
+  place: Wherever
+  hindex: 102
+  sub: MM
+
+- name: TPAMI
+  year: 
+  id: tpami
+  link: mc.manuscriptcentral.com/tpami-cs
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: Whenever
+  place: Wherever
+  hindex: 114
+  sub: CV
+
+- name: IJCV
+  year: 
+  id: ijcv
+  link: www.springer.com/computer/image+processing/journal/11263
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: Whenever
+  place: Wherever
+  hindex: 68
+  sub: CV
+
+- name: TMM
+  year: 
+  id: tmm
+  link: mc.manuscriptcentral.com/tmm-ieee
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: Whenever
+  place: Wherever
+  hindex: 58
+  sub: MM
+
+- name: TCSVT
+  year: 
+  id: tcsvt
+  link: mc.manuscriptcentral.com/tcsvt
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: Whenever
+  place: Wherever
+  hindex: 54
+  sub: MM
+
 # - name: ICCV
 #   year: 2017
 #   id: iccv17
