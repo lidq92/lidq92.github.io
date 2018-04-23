@@ -70,7 +70,7 @@
 - name: TIP
   year: 
   id: tip
-  link: mc.manuscriptcentral.com/tip-ieee
+  link: http://mc.manuscriptcentral.com/tip-ieee
   deadline: TBA
   timezone: America/Los_Angeles
   date: Whenever
@@ -81,7 +81,7 @@
 - name: TPAMI
   year: 
   id: tpami
-  link: mc.manuscriptcentral.com/tpami-cs
+  link: http://mc.manuscriptcentral.com/tpami-cs
   deadline: TBA
   timezone: America/Los_Angeles
   date: Whenever
@@ -92,7 +92,7 @@
 - name: IJCV
   year: 
   id: ijcv
-  link: www.springer.com/computer/image+processing/journal/11263
+  link: http://www.springer.com/computer/image+processing/journal/11263
   deadline: TBA
   timezone: America/Los_Angeles
   date: Whenever
@@ -103,7 +103,7 @@
 - name: TMM
   year: 
   id: tmm
-  link: mc.manuscriptcentral.com/tmm-ieee
+  link: http://mc.manuscriptcentral.com/tmm-ieee
   deadline: TBA
   timezone: America/Los_Angeles
   date: Whenever
@@ -114,7 +114,7 @@
 - name: TCSVT
   year: 
   id: tcsvt
-  link: mc.manuscriptcentral.com/tcsvt
+  link: http://mc.manuscriptcentral.com/tcsvt
   deadline: TBA
   timezone: America/Los_Angeles
   date: Whenever
@@ -125,7 +125,7 @@
 # - name: ICCV
 #   year: 2017
 #   id: iccv17
-#   link: hhttp://iccv2017.thecvf.com/
+#   link: http://iccv2017.thecvf.com/
 #   deadline: "2017-03-17 23:59:59"
 #   timezone: Etc/GMT+7
 #   date: October 22-29, 2017
@@ -135,7 +135,7 @@
 # - name: ACM MM
 #   year: 2017
 #   id: acmmm17
-#   link: acmmm.org/2017/
+#   link: http://acmmm.org/2017/
 #   deadline: "2017-04-20 23:59:59"
 #   timezone: Etc/GMT-12
 #   date: October 22-26, 2018
@@ -175,7 +175,7 @@
 # - name: ICME
 #   year: 2018
 #   id: icme18
-#   link: www.acmmm.org/2018/
+#   link: http://www.icme2018.org
 #   deadline: "2017-12-15 23:59:59"
 #   timezone: Etc/GMT+7
 #   date: July 23-27, 2018
@@ -235,7 +235,7 @@
 # - name: MICCAI
 #   year: 2018
 #   id: miccai18
-#   link: www.miccai2018.org
+#   link: http://www.miccai2018.org
 #   deadline: "2018-03-02 23:59:59"
 #   timezone: Etc/GMT+7
 #   date: September 16-20, 2018
@@ -255,7 +255,7 @@
 - name: ACM MM
   year: 2018
   id: acmmm18
-  link: acmmm.org/2018/
+  link: http://acmmm.org/2018/
   deadline: "2018-04-08 23:59:59"
   timezone: Etc/GMT+7
   date: October 22-26, 2018
