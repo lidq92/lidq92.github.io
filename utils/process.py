@@ -52,7 +52,7 @@ def ordered_dump(data, stream=None, Dumper=yaml.Dumper, **kwds):
 
 dateformat = '%Y-%m-%d %H:%M:%S'
 tba_words = ["tba","tbc", "tbd"] # To be announced/confirmed/determined
-whenever_word = ["Whenever"]
+whenever_word = ["whenever"]
 
 right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
 
