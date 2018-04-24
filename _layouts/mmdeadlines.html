@@ -97,12 +97,12 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
-          {% if (conf.deadline == "TBA") %} // || conf.deadline == "Whenever"
-            $('#{{conf.id}} .timer').html(conf.deadline);
-            $('#{{conf.id}} .deadline-time').html(conf.deadline);
+          {% if conf.deadline == "TBA" %}
+            $('#{{conf.id}} .timer').html("TBA");
+            $('#{{conf.id}} .deadline-time').html("TBA");
           {% else %}
             // adjust date according to deadline timezone
-            var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %}; // default "America/New_York"
+            var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
             var confDate = moment.tz("{{conf.deadline}}", timezone);
 
             // render countdown timer
