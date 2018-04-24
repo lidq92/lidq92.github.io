@@ -97,46 +97,46 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
-        {% if (conf.deadline == "TBA" || conf.deadline == "Whenever") %}
-          $('#{{conf.id}} .timer').html(conf.deadline);
-          $('#{{conf.id}} .deadline-time').html(conf.deadline);
-        {% else %}
-          // adjust date according to deadline timezone
-          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %}; // default "America/New_York"
-          var confDate = moment.tz("{{conf.deadline}}", timezone);
+          {% if (conf.deadline == "TBA" || conf.deadline == "Whenever") %}
+            $('#{{conf.id}} .timer').html(conf.deadline);
+            $('#{{conf.id}} .deadline-time').html(conf.deadline);
+          {% else %}
+            // adjust date according to deadline timezone
+            var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %}; // default "America/New_York"
+            var confDate = moment.tz("{{conf.deadline}}", timezone);
 
-          // render countdown timer
-          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
-          });
-          $('#{{conf.id}} .deadline-time').html(confDate.toString());
+            // render countdown timer
+            $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
+              $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            });
+            $('#{{conf.id}} .deadline-time').html(confDate.toString());
 
-          // add calendar button
-          var myCalendar = createCalendar({
-            options: {
-              class: 'calendar-obj',
+            // add calendar button
+            var myCalendar = createCalendar({
+              options: {
+                class: 'calendar-obj',
 
-              // You can pass an ID. If you don't, one will be generated for you
-              id: '{{conf.id}}'
-            },
-            data: {
-              // Event title
-              title: '{{conf.name}} {{conf.year}} deadline',
+                // You can pass an ID. If you don't, one will be generated for you
+                id: '{{conf.id}}'
+              },
+              data: {
+                // Event title
+                title: '{{conf.name}} {{conf.year}} deadline',
 
-              // Event start date
-              start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
+                // Event start date
+                start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
 
-              // Event duration
-              duration: 60,
-            }
-          });
-          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
+                // Event duration
+                duration: 60,
+              }
+            });
+            document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
-          // check if date has passed, add 'past' class to it
-          var today = moment();
-          if (today.diff(confDate) > 0)
-            $('#{{conf.id}}').addClass('past');
-        {% endif %}
+            // check if date has passed, add 'past' class to it
+            var today = moment();
+            if (today.diff(confDate) > 0)
+              $('#{{conf.id}}').addClass('past');
+          {% endif %}
         {% endfor %}
 
         // Set checkboxes
