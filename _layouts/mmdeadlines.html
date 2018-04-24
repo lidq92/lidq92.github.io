@@ -97,7 +97,7 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
-          {% if (conf.deadline == "TBA" || conf.deadline == "Whenever") %}
+          {% if (conf.deadline == "TBA" or conf.deadline == "Whenever") %}
             $('#{{conf.id}} .timer').html("{{conf.deadline}}");
             $('#{{conf.id}} .deadline-time').html("{{conf.deadline}}");
           {% else %}
