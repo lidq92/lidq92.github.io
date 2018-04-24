@@ -51,7 +51,7 @@ def ordered_dump(data, stream=None, Dumper=yaml.Dumper, **kwds):
     return yaml.dump(data, stream, OrderedDumper, **kwds)
 
 dateformat = '%Y-%m-%d %H:%M:%S'
-tba_words = ["tba","tbd"]
+tba_words = ["tba","tbc", "tbd"] # To be announced/confirmed/determined
 
 right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
 

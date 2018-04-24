@@ -100,9 +100,12 @@
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
+        {% else if conf.deadline == "Whenever" %}
+          $('#{{conf.id}} .timer').html("Whenever");
+          $('#{{conf.id}} .deadline-time').html("Whenever");
         {% else %}
           // adjust date according to deadline timezone
-          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %}; // default "America/New_York"
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
           // render countdown timer
