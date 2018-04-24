@@ -232,15 +232,15 @@
 #   place: Monterey, California, USA
 #   sub: ML
 
-# - name: MICCAI
-#   year: 2018
-#   id: miccai18
-#   link: http://www.miccai2018.org
-#   deadline: "2018-03-02 23:59:59"
-#   timezone: Etc/GMT+7
-#   date: September 16-20, 2018
-#   place: Granada, Spain
-#   sub: MM
+- name: MICCAI
+  year: 2018
+  id: miccai18
+  link: http://www.miccai2018.org
+  deadline: "2018-03-02 23:59:59"
+  timezone: Etc/GMT+7
+  date: September 16-20, 2018
+  place: Granada, Spain
+  sub: MM
 
 # - name: ECCV
 #   year: 2018
