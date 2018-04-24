@@ -97,12 +97,14 @@
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
-        {% if conf.deadline == "TBA" %}
-          $('#{{conf.id}} .timer').html("TBA");
-          $('#{{conf.id}} .deadline-time').html("TBA");
-        {% else if conf.deadline == "Whenever" %}
-          $('#{{conf.id}} .timer').html("Whenever");
-          $('#{{conf.id}} .deadline-time').html("Whenever");
+        {% if (conf.deadline == "TBA" || conf.deadline == "Whenever") %}
+          {% if conf.deadline == "TBA" %}
+            $('#{{conf.id}} .timer').html("TBA");
+            $('#{{conf.id}} .deadline-time').html("TBA");
+          {% else %}
+            $('#{{conf.id}} .timer').html("Whenever");
+            $('#{{conf.id}} .deadline-time').html("Whenever");
+          {% else %}
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %}; // default "America/New_York"

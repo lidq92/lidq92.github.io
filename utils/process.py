@@ -52,6 +52,7 @@ def ordered_dump(data, stream=None, Dumper=yaml.Dumper, **kwds):
 
 dateformat = '%Y-%m-%d %H:%M:%S'
 tba_words = ["tba","tbc", "tbd"] # To be announced/confirmed/determined
+whenever_word = ["Whenever"]
 
 right_now = datetime.datetime.utcnow().replace(microsecond=0).strftime(dateformat)
 
@@ -98,25 +99,26 @@ with open("../_data/conferences.yml", 'r') as stream:
         for q in data:
             print(q["deadline"]," - ",q["name"])
         print("\n\n")
-        conf = [x for x in data if x['deadline'].lower() not in tba_words]
+        conf = [x for x in data if x['deadline'].lower() not in tba_words+whenever_word]
         tba  = [x for x in data if x['deadline'].lower() in tba_words]
+        whenever = [x for x in data if x['deadline'].lower() in whenever_word]
 
 
 
         # just sort:
         conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))))
         print("Date Sorting:")
-        for q in conf+tba:
+        for q in conf+tba+whenever:
             print(q["deadline"]," - ",q["name"])
         print("\n\n")
         conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone']))).strftime(dateformat) < right_now)
-        print("Date and Passed Deadline Sorting with tba:")
-        for q in conf+tba:
+        print("Date and Passed Deadline Sorting with tba and whenever:")
+        for q in conf+tba+whenever:
             print(q["deadline"]," - ",q["name"])
         print("\n\n")
 
         with open('sorted_data.yml', 'w') as outfile:
-            for line in ordered_dump(conf+tba, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).replace('\'', '"').splitlines():
+            for line in ordered_dump(conf+tba+whenever, Dumper=yaml.SafeDumper, default_flow_style=False, explicit_start=True).replace('\'', '"').splitlines():
                 outfile.write('\n')
                 outfile.write(line.replace('- name:', '\n- name:'))
     except yaml.YAMLError as exc:
