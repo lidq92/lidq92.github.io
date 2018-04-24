@@ -104,7 +104,7 @@
           {% else %}
             $('#{{conf.id}} .timer').html("Whenever");
             $('#{{conf.id}} .deadline-time').html("Whenever");
-          {% else %}
+          {% endif %}
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %}; // default "America/New_York"
