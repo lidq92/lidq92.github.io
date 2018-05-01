@@ -122,6 +122,17 @@
   hindex: 54
   sub: MM
 
+- name: JMLR
+  year: 
+  id: jmlr
+  link: http://www.jmlr.org/author-info.html
+  deadline: Whenever
+  timezone: America/Los_Angeles
+  date: Whenever
+  place: Wherever
+  hindex: 73
+  sub: ML
+
 # - name: ICCV
 #   year: 2017
 #   id: iccv17
