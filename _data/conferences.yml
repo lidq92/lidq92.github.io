@@ -1,17 +1,6 @@
 
 ---
 
-- name: BMVC
-  year: 2018
-  id: bmvc2018
-  link: http://bmvc2018.org/
-  deadline: "2018-05-07 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 03-06, 2018
-  place: Newcastle upon Tyne
-  hindex: 43
-  sub: CV
-
 - name: NIPS
   year: 2018
   id: nips18
