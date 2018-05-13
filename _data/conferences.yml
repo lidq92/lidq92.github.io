@@ -42,6 +42,7 @@
   timezone: Etc/GMT+10
   date: January 27 - February 1, 2019
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
+  hindex: 56
   sub: ML
 
 - name: ISBI
@@ -52,6 +53,7 @@
   timezone: Etc/GMT
   date: April 8-11, 2019
   place: Hilton Molino Stucky, Venice, Italy
+  hindex: 23
   sub: MM
 
 - name: ICASSP
@@ -62,6 +64,7 @@
   timezone: Etc/GMT
   date: May 12-17, 2019
   place: Brighton, UK
+  hindex: 67
   sub: MM
 
 - name: CVPR
