@@ -44,6 +44,16 @@
   place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
   sub: ML
 
+- name: ISBI
+  year: 2019
+  id: isbi19
+  link: https://biomedicalimaging.org/2019/
+  deadline: "2018-10-09 23:59:59"
+  timezone: Etc/GMT
+  date: April 8-11, 2019
+  place: Hilton Molino Stucky, Venice, Italy
+  sub: MM
+
 - name: ICASSP
   year: 2019
   id: icassp2019
