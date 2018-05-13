@@ -34,6 +34,26 @@
   hindex: 35
   sub: CV
 
+- name: AAAI
+  year: 2019
+  id: aaai19
+  link: https://aaai.org/Conferences/AAAI-19/
+  deadline: "2018-09-05 23:59:59"
+  timezone: Etc/GMT+10
+  date: January 27 - February 1, 2019
+  place: Hilton Hawaiian Village, Honolulu, Hawaii, USA
+  sub: ML
+
+- name: ICASSP
+  year: 2019
+  id: icassp2019
+  link: http://icassp2019.com/
+  deadline: "2018-10-29 23:59:59"
+  timezone: Etc/GMT
+  date: May 12-17, 2019
+  place: Brighton, UK
+  sub: MM
+
 - name: CVPR
   year: 2019
   id: cvpr2019
