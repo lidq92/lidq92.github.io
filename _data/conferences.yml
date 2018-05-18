@@ -1,17 +1,6 @@
 
 ---
 
-- name: NIPS
-  year: 2018
-  id: nips18
-  link: https://nips.cc/Conferences/2018
-  deadline: "2018-05-18 13:00:00"
-  timezone: America/Los_Angeles
-  date: December 3-8, 2018
-  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
-  hindex: 101
-  sub: ML
-
 - name: SPIC-SI on Advances in statistical methods-based visual quality assessment
   year: 
   id: spic-si18
@@ -205,16 +194,6 @@
 #   place: Salt Lake City, Utah
 #   sub: CV
 
-# - name: ICME
-#   year: 2018
-#   id: icme18
-#   link: http://www.icme2018.org
-#   deadline: "2017-12-15 23:59:59"
-#   timezone: Etc/GMT+7
-#   date: July 23-27, 2018
-#   place: San Diego, USA
-#   sub: MM
-
 # - name: SIGGRAPH
 #   year: 2018
 #   id: siggraph18
@@ -265,6 +244,17 @@
 #   place: Monterey, California, USA
 #   sub: ML
 
+- name: ICME
+  year: 2018
+  id: icme18
+  link: http://www.icme2018.org
+  deadline: "2017-12-15 23:59:59"
+  timezone: Etc/GMT+7
+  date: July 23-27, 2018
+  place: San Diego, USA
+  h-index: 25
+  sub: MM
+
 - name: MICCAI
   year: 2018
   id: miccai18
@@ -273,17 +263,19 @@
   timezone: Etc/GMT+7
   date: September 16-20, 2018
   place: Granada, Spain
+  h-index: 34
   sub: MM
 
-# - name: ECCV
-#   year: 2018
-#   id: eccv18
-#   link: https://eccv2018.org/
-#   deadline: "2018-03-14 15:59:00"
-#   timezone: America/Los_Angeles
-#   date: September 8-14, 2018
-#   place: Munich, Germany
-#   sub: CV
+- name: ECCV
+  year: 2018
+  id: eccv18
+  link: https://eccv2018.org/
+  deadline: "2018-03-14 15:59:00"
+  timezone: America/Los_Angeles
+  date: September 8-14, 2018
+  place: Munich, Germany
+  h-index: 98
+  sub: CV
 
 - name: ACM MM
   year: 2018
@@ -296,3 +288,13 @@
   hindex: 44
   sub: MM
 
+- name: NIPS
+  year: 2018
+  id: nips18
+  link: https://nips.cc/Conferences/2018
+  deadline: "2018-05-18 13:00:00"
+  timezone: America/Los_Angeles
+  date: December 3-8, 2018
+  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
+  hindex: 101
+  sub: ML
