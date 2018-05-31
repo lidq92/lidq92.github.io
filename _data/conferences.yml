@@ -1,17 +1,6 @@
 
 ---
 
-- name: SPIC-SI on Advances in statistical methods-based visual quality assessment
-  year: 
-  id: spic-si18
-  link: https://www.journals.elsevier.com/signal-processing-image-communication/call-for-papers/special-issue-on-advances-in-statistical-methods-based-visua
-  deadline: "2018-05-31 23:59:59"
-  timezone: Etc/GMT+7 # ...
-  date: November 30, 2018 (Final decision)
-  place: None
-  hindex: 31
-  sub: MM
-
 - name: ACCV
   year: 2018
   id: accv18
@@ -298,3 +287,14 @@
   place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
   hindex: 101
   sub: ML
+
+# - name: SPIC-SI on Advances in statistical methods-based visual quality assessment
+#   year: 
+#   id: spic-si18
+#   link: https://www.journals.elsevier.com/signal-processing-image-communication/call-for-papers/special-issue-on-advances-in-statistical-methods-based-visua
+#   deadline: "2018-05-31 23:59:59"
+#   timezone: Etc/GMT+7 # ...
+#   date: November 30, 2018 (Final decision)
+#   place: None
+#   hindex: 31
+#   sub: MM
