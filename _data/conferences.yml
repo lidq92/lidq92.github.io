@@ -45,6 +45,17 @@
   hindex: 67
   sub: MM
 
+- name: DCC
+  year: 2019
+  id: dcc2019
+  link: http://www.cs.brandeis.edu/~dcc/index.html
+  deadline: "2018-11-01 23:59:59"
+  timezone: Etc/GMT
+  date: March 26-29, 2019 
+  place: Snowbird, Utah
+  hindex: 17
+  sub: MM
+
 - name: CVPR
   year: 2019
   id: cvpr2019
