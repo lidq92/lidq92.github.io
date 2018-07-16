@@ -67,6 +67,16 @@
   hindex: 89
   sub: CV
 
+- name: ICML
+  year: 2019
+  id: icml19
+  link: https://icml.cc/Conferences/2019
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: June 10-15, 2019
+  place: Long Beach, CA
+  sub: ML
+
 - name: TIP
   year: 
   id: tip
