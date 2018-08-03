@@ -12,17 +12,6 @@
   hindex: 56
   sub: ML
 
-- name: ISBI
-  year: 2019
-  id: isbi19
-  link: https://biomedicalimaging.org/2019/
-  deadline: "2018-10-09 23:59:59"
-  timezone: Etc/GMT
-  date: April 8-11, 2019
-  place: Hilton Molino Stucky, Venice, Italy
-  hindex: 23
-  sub: MM
-
 - name: ICASSP
   year: 2019
   id: icassp2019
@@ -55,6 +44,17 @@
   place: Long Beach, CA
   hindex: 158
   sub: CV
+  
+  - name: ICME
+  year: 2019
+  id: icme19
+  link: http://www.icme2019.org
+  deadline: "2018-12-03 23:59:59"
+  timezone: Etc/GMT+7
+  date: July 8-12, 2019
+  place: Shanghai, China
+  h-index: 25
+  sub: MM
 
 - name: ICCV
   year: 2019
@@ -243,27 +243,27 @@
 #   place: Monterey, California, USA
 #   sub: ML
 
-- name: ICME
-  year: 2018
-  id: icme18
-  link: http://www.icme2018.org
-  deadline: "2017-12-15 23:59:59"
-  timezone: Etc/GMT+7
-  date: July 23-27, 2018
-  place: San Diego, USA
-  h-index: 25
-  sub: MM
+# - name: ICME
+#   year: 2018
+#   id: icme18
+#   link: http://www.icme2018.org
+#   deadline: "2017-12-15 23:59:59"
+#   timezone: Etc/GMT+7
+#   date: July 23-27, 2018
+#   place: San Diego, USA
+#   h-index: 25
+#   sub: MM
 
-- name: MICCAI
-  year: 2018
-  id: miccai18
-  link: http://www.miccai2018.org
-  deadline: "2018-03-02 23:59:59"
-  timezone: Etc/GMT+7
-  date: September 16-20, 2018
-  place: Granada, Spain
-  h-index: 34
-  sub: MM
+# - name: MICCAI
+#   year: 2018
+#   id: miccai18
+#   link: http://www.miccai2018.org
+#   deadline: "2018-03-02 23:59:59"
+#   timezone: Etc/GMT+7
+#   date: September 16-20, 2018
+#   place: Granada, Spain
+#   h-index: 34
+#   sub: MM
 
 - name: ECCV
   year: 2018
@@ -276,27 +276,27 @@
   h-index: 98
   sub: CV
 
-- name: ACM MM
-  year: 2018
-  id: acmmm18
-  link: http://acmmm.org/2018/
-  deadline: "2018-04-08 23:59:59"
-  timezone: Etc/GMT+7
-  date: October 22-26, 2018
-  place: Seoul, Korea
-  hindex: 44
-  sub: MM
+# - name: ACM MM
+#   year: 2018
+#   id: acmmm18
+#   link: http://acmmm.org/2018/
+#   deadline: "2018-04-08 23:59:59"
+#   timezone: Etc/GMT+7
+#   date: October 22-26, 2018
+#   place: Seoul, Korea
+#   hindex: 44
+#   sub: MM
 
-- name: NIPS
-  year: 2018
-  id: nips18
-  link: https://nips.cc/Conferences/2018
-  deadline: "2018-05-18 13:00:00"
-  timezone: America/Los_Angeles
-  date: December 3-8, 2018
-  place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
-  hindex: 101
-  sub: ML
+# - name: NIPS
+#   year: 2018
+#   id: nips18
+#   link: https://nips.cc/Conferences/2018
+#   deadline: "2018-05-18 13:00:00"
+#   timezone: America/Los_Angeles
+#   date: December 3-8, 2018
+#   place: "Palais des Congr\xE8s de Montr\xE9al, Montr\xE9al, Canada"
+#   hindex: 101
+#   sub: ML
 
 # - name: SPIC-SI on Advances in statistical methods-based visual quality assessment
 #   year: 
@@ -309,13 +309,13 @@
 #   hindex: 31
 #   sub: MM
 
-- name: ACCV
-  year: 2018
-  id: accv18
-  link: http://accv2018.net/
-  deadline: "2018-07-05 23:59:59"
-  timezone: America/Los_Angeles
-  date: December 2-6, 2018
-  place: Perth, Western Australia
-  hindex: 35
-  sub: CV
+# - name: ACCV
+#   year: 2018
+#   id: accv18
+#   link: http://accv2018.net/
+#   deadline: "2018-07-05 23:59:59"
+#   timezone: America/Los_Angeles
+#   date: December 2-6, 2018
+#   place: Perth, Western Australia
+#  hindex: 35
+#   sub: CV
