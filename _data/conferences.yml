@@ -45,7 +45,7 @@
   hindex: 158
   sub: CV
   
-  - name: ICME
+- name: ICME
   year: 2019
   id: icme19
   link: http://www.icme2019.org
@@ -265,16 +265,16 @@
 #   h-index: 34
 #   sub: MM
 
-- name: ECCV
-  year: 2018
-  id: eccv18
-  link: https://eccv2018.org/
-  deadline: "2018-03-14 15:59:00"
-  timezone: America/Los_Angeles
-  date: September 8-14, 2018
-  place: Munich, Germany
-  h-index: 98
-  sub: CV
+# - name: ECCV
+#   year: 2018
+#   id: eccv18
+#   link: https://eccv2018.org/
+#   deadline: "2018-03-14 15:59:00"
+#   timezone: America/Los_Angeles
+#   date: September 8-14, 2018
+#   place: Munich, Germany
+#   h-index: 98
+#   sub: CV
 
 # - name: ACM MM
 #   year: 2018
