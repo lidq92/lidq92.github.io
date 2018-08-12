@@ -56,16 +56,15 @@
   h-index: 25
   sub: MM
 
-- name: ICCV
+- name: IJCAI
   year: 2019
-  id: iccv2019
-  link: http://iccv2019.thecvf.com
-  deadline: TBA
-  timezone: America/Los_Angeles
-  date: October 20-26, 2019
-  place: Seoul, Korea
-  hindex: 89
-  sub: CV
+  id: ijcai19
+  link: https://www.ijcai19.org/
+  deadline: "2019-02-25 23:59:59"
+  timezone: Etc/GMT+12
+  date: August 10-16, 2019
+  place: Macao, China
+  sub: ML
 
 - name: ICML
   year: 2019
@@ -77,6 +76,17 @@
   place: Long Beach, CA
   sub: ML
 
+- name: ICCV
+  year: 2019
+  id: iccv2019
+  link: http://iccv2019.thecvf.com
+  deadline: TBA
+  timezone: America/Los_Angeles
+  date: Oct. 27- Nov. 3, 2019
+  place: Seoul, Korea
+  hindex: 89
+  sub: CV
+  
 - name: TIP
   year: 
   id: tip
