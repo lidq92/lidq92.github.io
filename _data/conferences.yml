@@ -1,5 +1,16 @@
 
 ---
+
+- name: ICML
+  year: 2019
+  id: icml19
+  link: https://icml.cc/Conferences/2019
+  deadline: "2019-01-23 23:59:59"
+  timezone: America/Los_Angeles
+  date: June 10-15, 2019
+  place: Long Beach, CA
+  sub: ML
+
 - name: IJCAI
   year: 2019
   id: ijcai19
@@ -8,16 +19,6 @@
   timezone: Etc/GMT+12
   date: August 10-16, 2019
   place: Macao, China
-  sub: ML
-
-- name: ICML
-  year: 2019
-  id: icml19
-  link: https://icml.cc/Conferences/2019
-  deadline: TBA
-  timezone: America/Los_Angeles
-  date: June 10-15, 2019
-  place: Long Beach, CA
   sub: ML
 
 - name: ICCV
