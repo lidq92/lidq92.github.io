@@ -1,15 +1,15 @@
 
 ---
 
-- name: ICML
-  year: 2019
-  id: icml19
-  link: https://icml.cc/Conferences/2019
-  deadline: "2019-01-23 23:59:59"
-  timezone: America/Los_Angeles
-  date: June 10-15, 2019
-  place: Long Beach, CA
-  sub: ML
+# - name: ICML
+#   year: 2019
+#   id: icml19
+#   link: https://icml.cc/Conferences/2019
+#   deadline: "2019-01-23 23:59:59"
+#   timezone: America/Los_Angeles
+#   date: June 10-15, 2019
+#   place: Long Beach, CA
+#   sub: ML
 
 - name: IJCAI
   year: 2019
@@ -31,7 +31,18 @@
   place: Seoul, Korea
   hindex: 89
   sub: CV
-  
+
+- name: ACM MM
+  year: 2019
+  id: acmmm19
+  link: http://acmmm.org/2019/
+  deadline: "2018-04-01 23:59:59"
+  timezone: Etc/GMT+7
+  date: October 21-25, 2018
+  place: Nice, France
+  hindex: 44
+  sub: MM
+
 - name: TIP
   year: 
   id: tip
