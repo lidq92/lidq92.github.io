@@ -43,6 +43,17 @@
   hindex: 44
   sub: MM
 
+- name: NeurIPS
+  year: 2019
+  id: nips19
+  link: https://neurips.cc/Conferences/2019
+  deadline: "2019-05-23 00:00:00"
+  timezone: Etc/GMT+7
+  date: December 2-8, 2019
+  place: "Vancouver Convention Center, Vancouver Canada"
+  hindex: 101
+  sub: ML
+
 - name: TIP
   year: 
   id: tip
