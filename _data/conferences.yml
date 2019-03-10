@@ -11,15 +11,15 @@
 #   place: Long Beach, CA
 #   sub: ML
 
-- name: IJCAI
-  year: 2019
-  id: ijcai19
-  link: https://www.ijcai19.org/
-  deadline: "2019-02-25 23:59:59"
-  timezone: Etc/GMT+12
-  date: August 10-16, 2019
-  place: Macao, China
-  sub: ML
+#- name: IJCAI
+#  year: 2019
+#  id: ijcai19
+#  link: https://www.ijcai19.org/
+#  deadline: "2019-02-25 23:59:59"
+#  timezone: Etc/GMT+12
+#  date: August 10-16, 2019
+#  place: Macao, China
+#  sub: ML
 
 - name: ICCV
   year: 2019
@@ -53,6 +53,28 @@
   place: "Vancouver Convention Center, Vancouver Canada"
   hindex: 101
   sub: ML
+  
+- name: AAAI
+  year: 2020
+  id: aaai20
+  link: https://aaai.org/Conferences/AAAI-20/
+  deadline: "TBA"
+  timezone: Etc/GMT+10
+  date: February 7-12, 2020
+  place: New York Hilton Midtown, New York, NY USA
+  hindex: 56
+  sub: ML
+
+- name: CVPR
+  year: 2020
+  id: cvpr2020
+  link: http://cvpr2020.thecvf.com
+  deadline: "TBA"
+  timezone: America/Los_Angeles
+  date: June 13-19, 2019
+  place: Seattle, USA
+  hindex: 158
+  sub: CV
 
 - name: TIP
   year: 
